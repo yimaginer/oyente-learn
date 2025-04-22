@@ -40,7 +40,7 @@ def has_dependencies_installed():
         logging.critical(e)
         logging.critical("Z3 is not available. Please install z3 from https://github.com/Z3Prover/z3.")
         return False
-
+        # 实验
     if not cmd_exists("evm"):
         logging.critical("Please install evm from go-ethereum and make sure it is in the path.")
         return False
